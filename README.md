@@ -1,5 +1,6 @@
 # vttp-ssf-resources
 - Convert Long to LocalDate and vice versa
+
 public class LocalDateConverter {
     public LocalDateConverter(){
 

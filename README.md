@@ -1,7 +1,7 @@
 # vttp-ssf-resources
 - Convert Long to LocalDate and vice versa
 
-public class LocalDateConverter {
+§public class LocalDateConverter {
     public LocalDateConverter(){
 
     }
@@ -17,4 +17,4 @@ public class LocalDateConverter {
         long epochMilli = localDateTime.atZone(zoneId).toInstant().toEpochMilli();
         return String.valueOf(epochMilli);
     }
-}
+}§
